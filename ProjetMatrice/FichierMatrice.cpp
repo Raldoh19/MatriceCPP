@@ -190,6 +190,7 @@ CMatrice<double>* CFichierMatrice::FM_Contenu()
 	}
 	else
 	{
+
 		throw new Cexception(EXCEPTION_FICHIERINEXISTANT, "Le fichier est inexistant !");
 	}
 }

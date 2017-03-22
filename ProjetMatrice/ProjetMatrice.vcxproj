@@ -79,12 +79,14 @@
     <ClInclude Include="Cexception.h" />
     <ClInclude Include="FichierMatrice.h" />
     <ClInclude Include="Matrice.h" />
+    <ClInclude Include="TestUnitaire.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cexception.cpp" />
     <ClCompile Include="FichierMatrice.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrice.cpp" />
+    <ClCompile Include="TestUnitaire.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
